@@ -1,3 +1,6 @@
 [submodule "ASP-CORR-701"]
 	path = EnriqueJugo/ASP-CORR-701
 	url = https://github.com/EnriqueJugo/ASP-CORR-701.git
+[submodule "EnriqueJugo/ASP-CORR-701"]
+	path = EnriqueJugo/ASP-CORR-701
+	url = https://github.com/EnriqueJugo/ASP-CORR-701.git
