@@ -1,0 +1,48 @@
+library ieee;
+use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+
+library work;
+use work.TdmaMinTypes.all;
+
+entity TestTopLevel_ASP is
+    generic (
+    ports : positive := 8
+  );
+end entity;
+
+architecture rtl of TestToplevel_ASP is
+  signal clock     : std_logic := '1';
+
+  signal send_port        : tdma_min_ports(0 to ports - 1);
+  signal recv_port        : tdma_min_ports(0 to ports - 1);
+
+begin
+  clock <= not clock after 20 ns;
+
+  tdma_min : entity work.TdmaMin
+    generic map(
+      ports => ports
+    )
+    port map
+    (
+      clock => clock,
+      sends => send_port,
+      recvs => recv_port
+    );
+  sig_gen : entity work.Sig_Gen
+    port map
+    (
+      clock => clock,
+      send  => send_port(1),
+      recv  => recv_port(1)
+    );
+
+  asp_avg : entity work.AVG_ASP
+    port map
+    (
+      clock => clock,
+      send  => send_port(2),
+      recv  => recv_port(2)
+    );
+end architecture;

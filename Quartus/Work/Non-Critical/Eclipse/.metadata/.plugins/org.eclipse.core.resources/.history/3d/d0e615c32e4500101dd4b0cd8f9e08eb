@@ -1,0 +1,72 @@
+#include <stdio.h>
+#include <unistd.h>                          // for usleep()
+#include "system.h"
+#include "alt_types.h"
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "sys/alt_stdio.h"                   // for alt_printf()
+
+/* Volatile variable to hold the value of the button PIO edge-capture register */
+volatile int edge_capture = 0;
+volatile int config_key3 = 0x9A000000;
+int data;
+
+/* ISR for KEY PIO interrupts: reports which keys were pressed and their current state */
+static void handle_keys_interrupts(void* context) {
+    volatile int* edge_capture_ptr = (volatile int*)context;
+
+    /* 1) read & clear edge-capture */
+    int edges = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEY_PIO_BASE);
+    *edge_capture_ptr = edges;
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEY_PIO_BASE, 0);
+
+    /* 2) report which keys triggered */
+    if (edges & 0x1) alt_printf("KEY0 press detected\n");
+    if (edges & 0x2) alt_printf("KEY1 press detected\n");
+    if (edges & 0x4) alt_printf("KEY2 press detected\n");
+    if (edges & 0x8) ALT_CI_ASP_CONFIG_0(config_key3);
+
+    /* 3) read current key states */
+    int state = IORD_ALTERA_AVALON_PIO_DATA(KEY_PIO_BASE) & 0xF;
+    alt_printf("Current key states: %d\r\n", state);
+}
+
+/* Initialize KEY PIO to generate interrupts on all four keys */
+static void init_keys_pio(void) {
+    void* ptr = (void*)&edge_capture;
+
+    /* Enable interrupts for KEY0–KEY3 (bits 0–3) */
+    IOWR_ALTERA_AVALON_PIO_IRQ_MASK(KEY_PIO_BASE, 0xF);
+    /* Clear any pending captures */
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEY_PIO_BASE, 0);
+
+    /* Register the ISR */
+    alt_ic_isr_register(
+        KEY_PIO_IRQ_INTERRUPT_CONTROLLER_ID,
+        KEY_PIO_IRQ,
+        handle_keys_interrupts,
+        ptr,
+        0
+    );
+}
+
+int main(void) {
+    int display_val = 0xAA;  // 10101010
+
+    printf("\n--- Key Interrupt Example ---\n");
+    printf("Displaying 0x%X on LEDs\n", display_val);
+    IOWR_ALTERA_AVALON_PIO_DATA(LED_PIO_BASE, display_val);
+
+    init_keys_pio();
+    alt_printf("KEY PIO interrupt handler registered.\n");
+
+    /* Main loop: just sleep and optionally use edge_capture elsewhere */
+    while (1) {
+        usleep(10000);
+        // Could poll edge_capture or handle TDMA-MIN here...
+        data = ALT_CI_RECEIVE_DATA_0;
+        alt_printf("Showing data: %d\n", data);
+    }
+
+    return 0;
+}

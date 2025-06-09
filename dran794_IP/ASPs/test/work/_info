@@ -1,0 +1,712 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FknWork\Critical\ASPs\test
+Easp_config_hw
+Z1 w1749366805
+Z2 DPx4 work 12 tdmamintypes 0 22 V@oKhRG0DScNUkH3^aUSf3
+Z3 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dD:\FknWork\Critical\ASPs\test
+Z7 8D:/FknWork/Critical/asp_config_hw.vhd
+Z8 FD:/FknWork/Critical/asp_config_hw.vhd
+l0
+L8
+Vcn8DfgcNzcW2OOMbCVO963
+Z9 OV;C;10.1d;51
+32
+Z10 !s108 1749366807.386000
+Z11 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/asp_config_hw.vhd|
+Z12 !s107 D:/FknWork/Critical/asp_config_hw.vhd|
+Z13 o-work work -O0
+Z14 tExplicit 1 NoCoverage 1
+!s100 4ihV_?aR]5YmMCnH5DOX:2
+!i10b 1
+Ainstruction
+R2
+R3
+R4
+R5
+DEx4 work 13 asp_config_hw 0 22 cn8DfgcNzcW2OOMbCVO963
+l18
+L17
+VKZ1Z6f?Pl^f7IH57Bo^2a2
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 6MiI;W@j[mFg7gLUXcR7j0
+!i10b 1
+Easp_config_instruction
+Z15 w1749366759
+R2
+R3
+R4
+R5
+R6
+Z16 8D:/FknWork/Critical/asp_config_instruction.vhd
+Z17 FD:/FknWork/Critical/asp_config_instruction.vhd
+l0
+L8
+VIl1HB@=S7S_UYZ2LNZNHl2
+R9
+32
+Z18 !s108 1749366808.076000
+Z19 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/asp_config_instruction.vhd|
+Z20 !s107 D:/FknWork/Critical/asp_config_instruction.vhd|
+R13
+R14
+!s100 Nnf`@=GcBXoHWQCJ:3emd3
+!i10b 1
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 22 asp_config_instruction 0 22 Il1HB@=S7S_UYZ2LNZNHl2
+l27
+L17
+V6gBJAmhZcYBK^AjD^Jg7F1
+R9
+32
+R18
+R19
+R20
+R13
+R14
+!s100 o38memHMZ``4BD_VB:2N90
+!i10b 1
+Eavg_asp
+Z21 w1749354960
+R2
+R5
+R4
+R3
+Z22 dD:\University\HMPSoC-701-Final\Quartus\FknWork\Critical\ASPs\test
+Z23 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/AVG_ASP.vhd
+Z24 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/AVG_ASP.vhd
+l0
+L8
+V6GCTe5ZnEMcm>W[;TD;1_0
+R9
+32
+Z25 !s108 1749449577.312000
+Z26 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/AVG_ASP.vhd|
+Z27 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/AVG_ASP.vhd|
+R13
+R14
+!s100 PXPgiif0f@<5?d[V[@BI73
+!i10b 1
+Asim
+R2
+R5
+R4
+R3
+Z28 DEx4 work 7 avg_asp 0 22 6GCTe5ZnEMcm>W[;TD;1_0
+l25
+L16
+Vl5NbdhlFiLn4XCN0R[7X:3
+R9
+32
+R25
+R26
+R27
+R13
+R14
+!s100 ;zK=J9U1B9lFEL4k?U6NC0
+!i10b 1
+Ecorr_asp
+Z29 w1749470150
+R2
+R5
+R4
+R3
+R22
+Z30 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/CORR_ASP.vhd
+Z31 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/CORR_ASP.vhd
+l0
+L8
+V@VfdCAB[Rl`WflEkS2;Hg1
+!s100 WzVR?I>8eM?hDeZ=fIFli0
+R9
+32
+!i10b 1
+Z32 !s108 1749470154.663000
+Z33 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/CORR_ASP.vhd|
+Z34 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/CORR_ASP.vhd|
+R13
+R14
+Aarch
+R2
+R5
+R4
+R3
+Z35 DEx4 work 8 corr_asp 0 22 @VfdCAB[Rl`WflEkS2;Hg1
+l36
+L16
+Z36 Vi<79cNN;Rd`KW_46`K`ML2
+Z37 !s100 iPGFJae:9n5iS:^n[H55P2
+R9
+32
+!i10b 1
+R32
+R33
+R34
+R13
+R14
+Epd_asp
+Z38 w1749464492
+R2
+R5
+R4
+R3
+R22
+Z39 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/PD_ASP.vhd
+Z40 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/PD_ASP.vhd
+l0
+L8
+V8Q@O6J8UZQo^<jm_R?c5_2
+R9
+32
+Z41 !s108 1749464861.403000
+Z42 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/PD_ASP.vhd|
+Z43 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/PD_ASP.vhd|
+R13
+R14
+!s100 9n9ohJAf`?61;T>kFVbCO0
+!i10b 1
+Apeakdetection
+R2
+R5
+R4
+R3
+Z44 DEx4 work 6 pd_asp 0 22 8Q@O6J8UZQo^<jm_R?c5_2
+l34
+L16
+VK0@7?950>em?_3FkaJOKN2
+R9
+32
+R41
+R42
+R43
+R13
+R14
+!s100 27AoVR4Z3?YGPHL>i>Vbg0
+!i10b 1
+Ereceive_data_hw
+Z45 w1749366698
+R2
+R3
+R4
+R5
+R6
+Z46 8D:/FknWork/Critical/receive_data_hw.vhd
+Z47 FD:/FknWork/Critical/receive_data_hw.vhd
+l0
+L8
+VOlMhND8^Do`JaX[E:JFhR0
+R9
+32
+Z48 !s108 1749366808.770000
+Z49 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/receive_data_hw.vhd|
+Z50 !s107 D:/FknWork/Critical/receive_data_hw.vhd|
+R13
+R14
+!s100 z4311zkNe7ZN7`YDZ6WCA1
+!i10b 1
+Ainstruction
+R2
+R3
+R4
+R5
+DEx4 work 15 receive_data_hw 0 22 OlMhND8^Do`JaX[E:JFhR0
+l18
+L17
+V>0781kfY<egMNL:=WCQJ;2
+R9
+32
+R48
+R49
+R50
+R13
+R14
+!s100 GX]JFEkFI@FfNI>h:68[d0
+!i10b 1
+Ereceive_data_instruction
+Z51 w1749366633
+R2
+R3
+R4
+R5
+R6
+Z52 8D:/FknWork/Critical/receive_data_instruction.vhd
+Z53 FD:/FknWork/Critical/receive_data_instruction.vhd
+l0
+L8
+Vb0eV]KZ[dTMQa>3MdE^RF1
+R9
+32
+Z54 !s108 1749366810.121000
+Z55 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/receive_data_instruction.vhd|
+Z56 !s107 D:/FknWork/Critical/receive_data_instruction.vhd|
+R13
+R14
+!s100 JmX@H[LERMd_Toz@on2hb3
+!i10b 1
+Abehaviour
+R2
+R3
+R4
+R5
+DEx4 work 24 receive_data_instruction 0 22 b0eV]KZ[dTMQa>3MdE^RF1
+l27
+L17
+V]DfS`EgWem`;:iOcYA4XR3
+R9
+32
+R54
+R55
+R56
+R13
+R14
+!s100 46EZKAEgHaNi?=zhk;^Oc1
+!i10b 1
+Erom
+Z57 w1749314928
+Z58 DPx9 altera_mf 20 altera_mf_components 0 22 No]@D`cShSLI4UOb8Ijo62
+R4
+R5
+R22
+Z59 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/ROM.vhd
+Z60 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/ROM.vhd
+l0
+L7
+V:lL;:ZOb4?>^J3WZM[<G>0
+R9
+32
+Z61 !s108 1749464861.467000
+Z62 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/ROM.vhd|
+Z63 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/ROM.vhd|
+R13
+R14
+!s100 VX14SoTAGGX1g3lUF2ZZA1
+!i10b 1
+Asyn
+R58
+R4
+R5
+Z64 DEx4 work 3 rom 0 22 :lL;:ZOb4?>^J3WZM[<G>0
+l17
+L15
+V_5W9jU9POM>G@I7ID5i>G0
+R9
+32
+R61
+R62
+R63
+R13
+R14
+!s100 e910iThEiVX^a@3LXC@i@2
+!i10b 1
+Esig_gen
+Z65 w1749464362
+R2
+R3
+R4
+R5
+R22
+Z66 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/Sig_Gen.vhd
+Z67 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/Sig_Gen.vhd
+l0
+L8
+VcndAP5:Ua1R=TR;L3>3RC1
+R9
+32
+Z68 !s108 1749464861.530000
+Z69 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/Sig_Gen.vhd|
+Z70 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/Sig_Gen.vhd|
+R13
+R14
+!s100 e5Z5Rafdbddj595FQWa301
+!i10b 1
+Abeh
+R58
+R64
+R2
+R3
+R4
+R5
+Z71 DEx4 work 7 sig_gen 0 22 cndAP5:Ua1R=TR;L3>3RC1
+l26
+L16
+VCH8NSXW[g1HREJIeWG^>N2
+R9
+32
+R68
+R69
+R70
+R13
+R14
+!s100 Y_^CcQ@Z_hF1WG<=aC=i42
+!i10b 1
+Etdmamin
+Z72 w1748660847
+R2
+R5
+R4
+R3
+R6
+Z73 8D:/FknWork/Critical/TDMA-MIN/TdmaMin.vhd
+Z74 FD:/FknWork/Critical/TDMA-MIN/TdmaMin.vhd
+l0
+L8
+VY>e9d85`3J6Jca]i1>T6L2
+R9
+32
+Z75 !s108 1749301902.579000
+Z76 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMin.vhd|
+Z77 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMin.vhd|
+R13
+Z78 tExplicit 1
+!s100 j_68DVMD4VQ^CPDH;zQK]0
+!i10b 1
+Artl
+Z79 DEx4 work 16 tdmamininterface 0 22 FSZ?0z64Y^n7UKZB=0@171
+Z80 DEx4 work 13 tdmaminfabric 0 22 m>QieaCaNTcSoz=9kWdC83
+Z81 DEx4 work 12 tdmaminslots 0 22 hj6UMhCDbh^@l@C=Y7nK52
+R2
+R5
+R4
+R3
+Z82 DEx4 work 7 tdmamin 0 22 Y>e9d85`3J6Jca]i1>T6L2
+l27
+L19
+V_nd[;8A4jSDW>kWOOedoC3
+R9
+32
+R75
+R76
+R77
+R13
+R78
+!s100 m2?E]WJ;gcN5:WUF2VV0:3
+!i10b 1
+Etdmaminfabric
+R72
+R2
+R5
+R4
+R3
+R6
+Z83 8D:/FknWork/Critical/TDMA-MIN/TdmaMinFabric.vhd
+Z84 FD:/FknWork/Critical/TDMA-MIN/TdmaMinFabric.vhd
+l0
+L8
+Vm>QieaCaNTcSoz=9kWdC83
+R9
+32
+Z85 !s108 1749301903.753000
+Z86 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinFabric.vhd|
+Z87 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinFabric.vhd|
+R13
+R78
+!s100 C`SP3AIdH_;VB@>c;XFc12
+!i10b 1
+Artl
+Z88 DEx4 work 12 tdmaminstage 0 22 <Z98D?LAUXS1YjLR0Q>MU0
+R2
+R5
+R4
+R3
+R80
+l27
+L20
+VZ<h]nf>`bI_I_ciKKU@?81
+R9
+32
+R85
+R86
+R87
+R13
+R78
+!s100 E?oZVCa00hcU81JJf8aba3
+!i10b 1
+Etdmaminfifo
+Z89 w1748660846
+R4
+R5
+R6
+Z90 8D:/FknWork/Critical/ASPs/ip/TdmaMinFifo/TdmaMinFifo.vhd
+Z91 FD:/FknWork/Critical/ASPs/ip/TdmaMinFifo/TdmaMinFifo.vhd
+l0
+L43
+V9>9elmY0cdGbcadY5gCHV1
+R9
+32
+Z92 !s108 1749301858.590000
+Z93 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/ASPs/ip/TdmaMinFifo/TdmaMinFifo.vhd|
+Z94 !s107 D:/FknWork/Critical/ASPs/ip/TdmaMinFifo/TdmaMinFifo.vhd|
+R13
+R78
+!s100 EO0F40UXUVSK`U[3_<LhH0
+!i10b 1
+Asyn
+R4
+R5
+DEx4 work 11 tdmaminfifo 0 22 9>9elmY0cdGbcadY5gCHV1
+l89
+L57
+VSL^ZXh>VCd=ZmDAbX3e0=0
+R9
+32
+R92
+R93
+R94
+R13
+R78
+!s100 GBnNI2To7PVQ3HLPSBF7S3
+!i10b 1
+Etdmamininterface
+Z95 w1748750334
+R2
+R5
+R4
+R3
+R6
+Z96 8D:/FknWork/Critical/TDMA-MIN/TdmaMinInterface.vhd
+Z97 FD:/FknWork/Critical/TDMA-MIN/TdmaMinInterface.vhd
+l0
+L10
+VFSZ?0z64Y^n7UKZB=0@171
+R9
+32
+Z98 !s108 1749301904.509000
+Z99 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinInterface.vhd|
+Z100 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinInterface.vhd|
+R13
+R78
+!s100 Ve9o_OgegO5BdonEijA:03
+!i10b 1
+Artl
+DEx2 ip 11 tdmaminfifo 0 22 >f6MVFi81<`AQ[FA50]1L3
+R2
+R5
+R4
+R3
+R79
+l40
+L26
+V]z<^Ti3ST5Q:L:b[6kFhR3
+R9
+32
+R98
+R99
+R100
+R13
+R78
+!s100 PDmmSlFjZKNz18J_@:QO`1
+!i10b 1
+Etdmaminslots
+R72
+R5
+R4
+R3
+R6
+Z101 8D:/FknWork/Critical/TDMA-MIN/TdmaMinSlots.vhd
+Z102 FD:/FknWork/Critical/TDMA-MIN/TdmaMinSlots.vhd
+l0
+L5
+Vhj6UMhCDbh^@l@C=Y7nK52
+R9
+32
+Z103 !s108 1749301905.257000
+Z104 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinSlots.vhd|
+Z105 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinSlots.vhd|
+R13
+R78
+!s100 __o8HSi_gaSII0bO=@a?j3
+!i10b 1
+Artl
+R5
+R4
+R3
+R81
+l19
+L15
+Vmj95K4gNH<?4XoaoPBFzI3
+R9
+32
+R103
+R104
+R105
+R13
+R78
+!s100 hme=dXVXJGX^cVM0ZE_B_2
+!i10b 1
+Etdmaminstage
+R72
+R2
+R5
+R4
+R3
+R6
+Z106 8D:/FknWork/Critical/TDMA-MIN/TdmaMinStage.vhd
+Z107 FD:/FknWork/Critical/TDMA-MIN/TdmaMinStage.vhd
+l0
+L8
+V<Z98D?LAUXS1YjLR0Q>MU0
+R9
+32
+Z108 !s108 1749301906.002000
+Z109 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinStage.vhd|
+Z110 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinStage.vhd|
+R13
+R78
+!s100 VWk?iXHi5[;:Y2mdA_gQC0
+!i10b 1
+Artl
+Z111 DEx4 work 13 tdmaminswitch 0 22 najWXOeJVnXRES0>IBiAG3
+R2
+R5
+R4
+R3
+R88
+l20
+L19
+VH:4d2Nb9WF_c]2YnjScI`3
+R9
+32
+R108
+R109
+R110
+R13
+R78
+!s100 9oS4U3bQ5gJ5d=Rh@G3iH2
+!i10b 1
+Etdmaminswitch
+R72
+R2
+R5
+R4
+R3
+R6
+Z112 8D:/FknWork/Critical/TDMA-MIN/TdmaMinSwitch.vhd
+Z113 FD:/FknWork/Critical/TDMA-MIN/TdmaMinSwitch.vhd
+l0
+L8
+VnajWXOeJVnXRES0>IBiAG3
+R9
+32
+Z114 !s108 1749301906.738000
+Z115 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinSwitch.vhd|
+Z116 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinSwitch.vhd|
+R13
+R78
+!s100 oMz@X83QG6:_3]>h5aO2V1
+!i10b 1
+Artl
+R2
+R5
+R4
+R3
+R111
+l19
+L18
+Vi439=5CQi9VWmgD1S<]103
+R9
+32
+R114
+R115
+R116
+R13
+R78
+!s100 HMHUE;hKWI5@W]`7L@BQ51
+!i10b 1
+Ptdmamintypes
+R5
+R4
+R3
+R72
+R6
+Z117 8D:/FknWork/Critical/TDMA-MIN/TdmaMinTypes.vhd
+Z118 FD:/FknWork/Critical/TDMA-MIN/TdmaMinTypes.vhd
+l0
+L5
+VV@oKhRG0DScNUkH3^aUSf3
+R9
+32
+b1
+Z119 !s108 1749301907.490000
+Z120 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/TDMA-MIN/TdmaMinTypes.vhd|
+Z121 !s107 D:/FknWork/Critical/TDMA-MIN/TdmaMinTypes.vhd|
+R13
+R78
+!s100 2Zm`MZo]LBFH7`SNm^XDI3
+!i10b 1
+Bbody
+R2
+R5
+R4
+R3
+l0
+L23
+VzflM>zL61HSXKF4dm@92Z1
+R9
+32
+R119
+R120
+R121
+R13
+R78
+nbody
+!s100 CWM=:jUlSL;[_m1bWncLn2
+!i10b 1
+Etesttoplevel_asp
+Z122 w1749449599
+R2
+R5
+R4
+R3
+R22
+Z123 8D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/test/TestTopLevel_ASP.vhd
+Z124 FD:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/test/TestTopLevel_ASP.vhd
+l0
+L8
+V<;TYXeU7`22P`IcIJL4R93
+R9
+32
+Z125 !s108 1749449603.137000
+Z126 !s90 -reportprogress|300|-work|work|D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/test/TestTopLevel_ASP.vhd|
+Z127 !s107 D:/University/HMPSoC-701-Final/Quartus/FknWork/Critical/ASPs/test/TestTopLevel_ASP.vhd|
+R13
+R14
+!s100 XK5V0HDKMc@f;eThi>fXD1
+!i10b 1
+Artl
+R44
+R35
+R28
+R71
+R82
+R2
+R5
+R4
+R3
+DEx4 work 16 testtoplevel_asp 0 22 <;TYXeU7`22P`IcIJL4R93
+l20
+L14
+VTJa9KQ?ClGm7N;mo5WQYF2
+R9
+32
+R125
+R126
+R127
+R13
+R14
+!s100 P<[HUke>>ITg^@d74OMBi3
+!i10b 1

@@ -1,0 +1,39 @@
+01:07:27 **** Incremental Build of configuration Nios II for project trust ****
+make all 
+Info: Building ../trust_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../trust_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../trust_bsp//HAL/inc -I../trust_bsp/ -I../trust_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking trust.elf
+nios2-elf-g++  -T'../trust_bsp//linker.x' -msys-crt0='../trust_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../trust_bsp/   -Wl,-Map=trust.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o trust.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert trust.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name Nios_System_2A --quartus_project_dir "D:/University/HMPSoC-701-Final/Quartus/FknWork/Non-Critical" --sopcinfo D:/University/HMPSoC-701-Final/Quartus/FknWork/Non-Critical/software/trust_bsp/../../Nios_System_2A.sopcinfo
+Info: (trust.elf) 71 KBytes program size (code + initialized data).
+Info:             65457 KBytes free for stack + heap.
+Info: Creating trust.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source trust.elf >trust.objdump
+[trust build complete]
+01:07:46 **** Build of configuration Nios II for project trust ****
+make all 
+Info: Building ../trust_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../trust_bsp/
+[BSP build complete]
+[trust build complete]
+01:07:47 **** Incremental Build of configuration Nios II for project trust ****
+make all 
+Info: Building ../trust_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../trust_bsp/
+[BSP build complete]
+[trust build complete]
+01:08:22 **** Build of configuration Nios II for project trust ****
+make all 
+Info: Building ../trust_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../trust_bsp/
+[BSP build complete]
+[trust build complete]
+01:08:23 **** Incremental Build of configuration Nios II for project trust ****
+make all 
+Info: Building ../trust_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../trust_bsp/
+[BSP build complete]
+[trust build complete]
