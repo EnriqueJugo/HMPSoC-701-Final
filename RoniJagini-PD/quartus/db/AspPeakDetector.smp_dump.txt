@@ -1,0 +1,12 @@
+
+State Machine - |PD_ASP|state
+Name state.negative_slope state.positive_slope state.idle 
+state.idle 0 0 0 
+state.positive_slope 0 1 1 
+state.negative_slope 1 0 1 
+
+State Machine - |PD_ASP|next_state
+Name next_state.negative_slope next_state.positive_slope next_state.idle 
+next_state.idle 0 0 0 
+next_state.positive_slope 0 1 1 
+next_state.negative_slope 1 0 1 

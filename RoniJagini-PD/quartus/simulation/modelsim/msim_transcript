@@ -1,0 +1,177 @@
+# Reading D:/Applications/modelsim_ase/tcl/vsim/pref.tcl
+# do AspPeakDetector_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Applications/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/TdmaMinTypes.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:54:29 on Jun 10,2025
+# vcom -reportprogress 300 -93 -work work D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/TdmaMinTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package TdmaMinTypes
+# -- Compiling package body TdmaMinTypes
+# -- Loading package TdmaMinTypes
+# End time: 09:54:29 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/PD_ASP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:54:29 on Jun 10,2025
+# vcom -reportprogress 300 -93 -work work D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/PD_ASP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity PD_ASP
+# -- Compiling architecture peakdetection of PD_ASP
+# End time: 09:54:29 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/TdmaMinTypes.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:54:40 on Jun 10,2025
+# vcom -reportprogress 300 -work work D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/TdmaMinTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package TdmaMinTypes
+# -- Compiling package body TdmaMinTypes
+# -- Loading package TdmaMinTypes
+# End time: 09:54:40 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/PD_ASP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:54:41 on Jun 10,2025
+# vcom -reportprogress 300 -work work D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/src/PD_ASP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity PD_ASP
+# -- Compiling architecture peakdetection of PD_ASP
+# End time: 09:54:41 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/test/tb_PD.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:54:45 on Jun 10,2025
+# vcom -reportprogress 300 -work work D:/University/COMPSYS 701/HMPSoC Final/HMPSoC-701-Final/RoniJagini-PD/test/tb_PD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package TdmaMinTypes
+# -- Compiling entity PD_ASP_tb
+# -- Compiling architecture tb of PD_ASP_tb
+# -- Loading entity PD_ASP
+# End time: 09:54:45 on Jun 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript rtl_work.pd_asp_tb
+# vsim -gui -l msim_transcript rtl_work.pd_asp_tb 
+# Start time: 09:54:56 on Jun 10,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading rtl_work.tdmamintypes(body)
+# Loading rtl_work.pd_asp_tb(tb)
+# Loading rtl_work.pd_asp(peakdetection)
+add wave -position insertpoint  \
+sim:/pd_asp_tb/uut/send \
+sim:/pd_asp_tb/uut/recv \
+sim:/pd_asp_tb/uut/dest \
+sim:/pd_asp_tb/uut/pd_on \
+sim:/pd_asp_tb/uut/state \
+sim:/pd_asp_tb/uut/next_state \
+sim:/pd_asp_tb/uut/reset \
+sim:/pd_asp_tb/uut/counter \
+sim:/pd_asp_tb/uut/correlation \
+sim:/pd_asp_tb/uut/last_correlation \
+sim:/pd_asp_tb/uut/peak_detected
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ronij  Hostname: LAPTOP-R22  ProcessID: 18532
+#           Attempting to use alternate WLF file "./wlftvht2rt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvht2rt
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 5 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 15 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 15 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 25 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 35 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 35 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 45 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 45 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 55 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 65 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 65 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 75 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 85 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 85 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 6
+#    Time: 95 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 105 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 115 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 125 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 2
+#    Time: 135 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 145 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 155 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 165 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 175 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 0
+#    Time: 185 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 4
+#    Time: 195 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 4
+#    Time: 205 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 4
+#    Time: 215 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 2
+#    Time: 225 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 2
+#    Time: 235 ns  Iteration: 1  Instance: /pd_asp_tb
+# ** Note: Send.data: 2
+#    Time: 245 ns  Iteration: 1  Instance: /pd_asp_tb
+# End time: 09:57:48 on Jun 10,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 11

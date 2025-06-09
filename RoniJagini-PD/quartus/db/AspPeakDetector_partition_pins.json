@@ -1,0 +1,205 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "send.data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "send.data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[28]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[29]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[30]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[31]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[24]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[27]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[26]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[25]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[23]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[22]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[21]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[20]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[19]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[18]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[17]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[16]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "recv.data[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

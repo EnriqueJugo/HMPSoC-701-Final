@@ -13,6 +13,30 @@ The new implementation (`PD_ASP`) introduces a more structured and reliable FSM 
 - **Simplified detection logic**: Configuration handling is isolated from peak detection.
 
 
+## How to Simulate (Quartus & ModelSim)
+
+1. **Open the project in Quartus.**
+2. **Add all VHDL source files to your Quartus project:**
+   - `TdmaMinTypes.vhd` 
+   - `PD_ASP.vhd`
+   - `test/tb_PD.vhd`
+3. **Compile the project in Quartus** to check for syntax and elaboration errors.
+4. **Launch ModelSim from Quartus:**
+   - Go to **Tools > Run Simulation Tool > RTL Simulation**.
+   - ModelSim will open with your project files pre-loaded.
+5. **In ModelSim, set up and run the simulation:**
+   - In the ModelSim console, set the testbench as the top-level:
+     ```
+     vsim work.PD_ASP_tb
+     ```
+   - Run the simulation for at least **300 ns**:
+     ```
+     run 300 ns
+     ```
+6. **View the simulation output:**
+   - The testbench will print the value of `send.data` at each clock cycle in the transcript window.
+   - You can also add signals to the waveform viewer to observe peaks and valleys as the testbench applies various input patterns.
+
 ## Comparison with Old Implementation
 
 The previous implementation (`AspPeakDetector`) attempted similar functionality but had a couple issues:
