@@ -1,0 +1,39 @@
+# system info Nios_System_2A on 2025.06.08.20:27:45
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1749371256
+#
+#
+# Files generated for Nios_System_2A on 2025.06.08.20:27:45
+files:
+filepath,kind,attributes,module,is_top
+simulation/Nios_System_2A.vhd,VHDL,,Nios_System_2A,true
+simulation/submodules/Nios_System_2A_LED_pio.vhd,VHDL,,Nios_System_2A_LED_pio,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+Nios_System_2A.LED_pio,Nios_System_2A_LED_pio
+Nios_System_2A.asp_config_0,Nios_System_2A_asp_config_0
+Nios_System_2A.clocks,Nios_System_2A_clocks
+Nios_System_2A.cpu,Nios_System_2A_cpu
+Nios_System_2A.hex_pio_0,Nios_System_2A_hex_pio_0
+Nios_System_2A.hex_pio_1,Nios_System_2A_hex_pio_0
+Nios_System_2A.hex_pio_2,Nios_System_2A_hex_pio_0
+Nios_System_2A.hex_pio_3,Nios_System_2A_hex_pio_0
+Nios_System_2A.hex_pio_4,Nios_System_2A_hex_pio_0
+Nios_System_2A.hex_pio_5,Nios_System_2A_hex_pio_0
+Nios_System_2A.high_res_timer,Nios_System_2A_high_res_timer
+Nios_System_2A.jtag_uart,Nios_System_2A_jtag_uart
+Nios_System_2A.key_pio,Nios_System_2A_key_pio
+Nios_System_2A.onchip_memory,Nios_System_2A_onchip_memory
+Nios_System_2A.sdram,Nios_System_2A_sdram
+Nios_System_2A.sw_pio,Nios_System_2A_sw_pio
+Nios_System_2A.cpu_custom_instruction_master_translator,altera_customins_master_translator
+Nios_System_2A.cpu_custom_instruction_master_multi_xconnect,Nios_System_2A_cpu_custom_instruction_master_multi_xconnect
+Nios_System_2A.cpu_custom_instruction_master_multi_slave_translator0,altera_customins_slave_translator
+Nios_System_2A.mm_interconnect_0,Nios_System_2A_mm_interconnect_0
+Nios_System_2A.irq_mapper,Nios_System_2A_irq_mapper
+Nios_System_2A.rst_controller,altera_reset_controller

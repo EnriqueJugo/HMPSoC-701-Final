@@ -1,0 +1,15 @@
+00:12:55 **** Incremental Build of configuration Nios II for project gurt ****
+make all 
+Info: Building ../gurt_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../gurt_bsp/
+Compiling alt_alarm_start.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+HAL/src/alt_alarm_start.c:112:1: fatal error: opening dependency file obj/HAL/src/alt_alarm_start.d: Permission denied
+ }
+ ^
+compilation terminated.
+make[1]: *** [obj/HAL/src/alt_alarm_start.o] Error 1
+make: *** [../gurt_bsp/-recurs-make-lib] Error 2
+
+00:12:56 Build Finished (took 537ms)
+

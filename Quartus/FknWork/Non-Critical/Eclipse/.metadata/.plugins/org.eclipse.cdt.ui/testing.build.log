@@ -1,0 +1,50 @@
+03:21:36 **** Incremental Build of configuration Nios II for project testing ****
+make all 
+Info: Building ../testing_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../testing_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../testing_bsp//HAL/inc -I../testing_bsp/ -I../testing_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+In file included from ../testing_bsp//drivers/inc/altera_avalon_pio_regs.h:34:0,
+                 from hello_world.c:19:
+hello_world.c: In function 'main':
+hello_world.c:31:30: error: 'HEX_PIO_2_BASE' undeclared (first use in this function)
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_2_BASE, sevenSeg(1));
+                              ^
+../testing_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../testing_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+hello_world.c:31:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_2_BASE, sevenSeg(1));
+  ^
+hello_world.c:31:30: note: each undeclared identifier is reported only once for each function it appears in
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_2_BASE, sevenSeg(1));
+                              ^
+../testing_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../testing_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+hello_world.c:31:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_2_BASE, sevenSeg(1));
+  ^
+hello_world.c:32:30: error: 'HEX_PIO_3_BASE' undeclared (first use in this function)
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_3_BASE, sevenSeg(3));
+                              ^
+../testing_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../testing_bsp//drivers/inc/altera_avalon_pio_regs.h:38:55: note: in expansion of macro 'IOWR'
+ #define IOWR_ALTERA_AVALON_PIO_DATA(base, data)       IOWR(base, 0, data)
+                                                       ^
+hello_world.c:32:2: note: in expansion of macro 'IOWR_ALTERA_AVALON_PIO_DATA'
+  IOWR_ALTERA_AVALON_PIO_DATA(HEX_PIO_3_BASE, sevenSeg(3));
+  ^
+make: *** [obj/default/hello_world.o] Error 1
+
+03:21:37 Build Finished (took 959ms)
+

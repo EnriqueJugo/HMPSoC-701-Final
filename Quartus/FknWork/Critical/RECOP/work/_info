@@ -1,0 +1,1016 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FknWork\Critical\RECOP
+Eadder_1
+Z1 w1746336335
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\FknWork\Critical\RECOP
+Z6 8D:/FknWork/Critical/RECOP/Datapath Modules/adder_1.vhd
+Z7 FD:/FknWork/Critical/RECOP/Datapath Modules/adder_1.vhd
+l0
+L5
+V;EP?VNGTSEAdOZ_XlWegc1
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1749381226.200000
+Z10 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/adder_1.vhd|
+Z11 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/adder_1.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
+!s100 @8?N_]n?3oIfMWOWTM@`M3
+!i10b 1
+Abeh
+R2
+R3
+R4
+Z14 DEx4 work 7 adder_1 0 22 ;EP?VNGTSEAdOZ_XlWegc1
+l14
+L13
+VkUfPfc72kzJ7RA=K03?bI3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 H9a^fhdGFKEDjblOlIHad3
+!i10b 1
+Ealu
+R1
+Z15 DPx4 work 17 various_constants 0 22 FaD`j54NjI?N2;ileZ?SG3
+Z16 DPx4 work 7 opcodes 0 22 2A7laXYE^XCMYo;NiS:D?2
+Z17 DPx4 work 11 recop_types 0 22 fY1D3lezHL]jNYXHNLTQY1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R3
+R4
+R5
+Z20 8D:/FknWork/Critical/RECOP/Datapath Modules/ALU.vhd
+Z21 FD:/FknWork/Critical/RECOP/Datapath Modules/ALU.vhd
+l0
+L10
+Vj5Wlnb`Jod9W@[2nPANgC3
+R8
+32
+Z22 !s108 1749381225.474000
+Z23 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/ALU.vhd|
+Z24 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/ALU.vhd|
+R12
+R13
+!s100 @eGEJ=[g>ia1[5_mb?^ll2
+!i10b 1
+Artl
+R15
+R16
+R17
+R18
+R19
+R3
+R4
+Z25 DEx4 work 3 alu 0 22 j5Wlnb`Jod9W@[2nPANgC3
+l27
+L24
+V1hL]@mFJTFP8jCF4[CzhC2
+R8
+32
+R22
+R23
+R24
+R12
+R13
+!s100 =Re@:c[L1fP7`0]d0Z<Ed3
+!i10b 1
+Econstant_1
+Z26 w1748814386
+R3
+R4
+R5
+Z27 8D:/FknWork/Critical/RECOP/Datapath Modules/constant_1.vhd
+Z28 FD:/FknWork/Critical/RECOP/Datapath Modules/constant_1.vhd
+l0
+L42
+VaGN@;GLKcOaT=<0^zUAII0
+R8
+32
+Z29 !s108 1749381224.754000
+Z30 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/constant_1.vhd|
+Z31 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/constant_1.vhd|
+R12
+R13
+!s100 >>6@4iYf`OnAGC0T85a<M0
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 10 constant_1 0 22 aGN@;GLKcOaT=<0^zUAII0
+l68
+L50
+VVR88a0BQE>GH2N9IiLcU90
+R8
+32
+R29
+R30
+R31
+R12
+R13
+!s100 Ik^dnEF;_Q0Jo`4iG=V933
+!i10b 1
+Econtrol_unit
+Z32 w1748990210
+R15
+R16
+R17
+R2
+R3
+R4
+R5
+Z33 8D:/FknWork/Critical/RECOP/control_unit.vhd
+Z34 FD:/FknWork/Critical/RECOP/control_unit.vhd
+l0
+L9
+VZ:`BDS^lU<k1fS[OzNI?@3
+R8
+32
+Z35 !s108 1749381234.987000
+Z36 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/control_unit.vhd|
+Z37 !s107 D:/FknWork/Critical/RECOP/control_unit.vhd|
+R12
+R13
+!s100 RJIOdP99l_]fECSc0?XTz0
+!i10b 1
+Afsm
+R15
+R16
+R17
+R2
+R3
+R4
+DEx4 work 12 control_unit 0 22 Z:`BDS^lU<k1fS[OzNI?@3
+l189
+L89
+VcXZz9=^f1ZRI_YB8[7?7a3
+R8
+32
+R35
+R36
+R37
+R12
+R13
+!s100 oa5[MeK2m7@N4S2C4<81g0
+!i10b 1
+Edata_memory
+R1
+R3
+R4
+R5
+Z38 8D:/FknWork/Critical/RECOP/Datapath Modules/data_memory.vhd
+Z39 FD:/FknWork/Critical/RECOP/Datapath Modules/data_memory.vhd
+l0
+L39
+VCH?YHUkE_PLKIbGW<:S762
+R8
+32
+Z40 !s108 1749381224.039000
+Z41 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/data_memory.vhd|
+Z42 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/data_memory.vhd|
+R12
+R13
+!s100 dN9kmB:e0<i@e=1[3O[nN0
+!i10b 1
+Asyn
+R3
+R4
+Z43 DEx4 work 11 data_memory 0 22 CH?YHUkE_PLKIbGW<:S762
+l79
+L49
+VD=g:mUi@l;iiQK8`haon`3
+R8
+32
+R40
+R41
+R42
+R12
+R13
+!s100 HeOWdG535<=<g4@eJ;17;0
+!i10b 1
+Edatapath
+Z44 w1748953099
+Z45 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R2
+R3
+R4
+R5
+Z46 8D:/FknWork/Critical/RECOP/datapath.vhd
+Z47 FD:/FknWork/Critical/RECOP/datapath.vhd
+l0
+L6
+V=l8ZlJ<8kmV`K:3fa=`_72
+R8
+32
+Z48 !s108 1749381235.986000
+Z49 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/datapath.vhd|
+Z50 !s107 D:/FknWork/Critical/RECOP/datapath.vhd|
+R12
+R13
+!s100 ?X`^LKO3a5Gb>;`^BY8k]2
+!i10b 1
+Artl
+Z51 DEx4 work 11 er_register 0 22 JKI0ElcB6ee1ULRfE:Ffl1
+Z52 DEx4 work 12 eot_register 0 22 _>fCGZhUb22Q<Co1_AXYR3
+Z53 DEx4 work 13 svop_register 0 22 [ZQJeaDjiZKF[dlEeA4aK1
+Z54 DEx4 work 12 sip_register 0 22 d3[<<BDLLV5nOd;>AfdzN3
+Z55 DEx4 work 13 dpcr_register 0 22 ]X=bD4oIbIG[BIRU2[jaD1
+R43
+Z56 DEx4 work 23 memory_address_register 0 22 ;EOz;eaU2ADT2Nn3MWI8K0
+Z57 DEx4 work 12 sop_register 0 22 GX=_mTkc6GPC04KZmHoZA0
+R16
+R18
+R19
+R25
+Z58 DEx4 work 5 mux_3 0 22 UBnh8EojjP5od9=BWf]DR1
+R15
+R17
+Z59 DEx4 work 13 register_file 0 22 F<WWED8eIjS<aVl=;KJKO3
+Z60 DEx4 work 5 mux_2 0 22 IoC2WB>J5oD_5O^akg[AR2
+Z61 DEx4 work 20 instruction_register 0 22 8N`;M2Ff74LknbYJaWhl;2
+Z62 DEx4 work 8 prog_mem 0 22 CSiNe3`la?9ofAj?47IK?0
+Z63 DEx4 work 5 mux_4 0 22 Aa8Oii9Qe2UDLa;cNkYZi1
+R14
+Z64 DEx4 work 15 program_counter 0 22 3S187@V;>naOH[DV?;:hd3
+R45
+R2
+R3
+R4
+DEx4 work 8 datapath 0 22 =l8ZlJ<8kmV`K:3fa=`_72
+l330
+L80
+VO47B9:3[cjDMod0^2hI:>0
+R8
+32
+R48
+R49
+R50
+R12
+R13
+!s100 f[;C3J76@PF>_<j77G8o61
+!i10b 1
+Edpcr_register
+Z65 w1748945702
+R3
+R4
+R5
+Z66 8D:/FknWork/Critical/RECOP/Datapath Modules/dcpr.vhd
+Z67 FD:/FknWork/Critical/RECOP/Datapath Modules/dcpr.vhd
+l0
+L4
+V]X=bD4oIbIG[BIRU2[jaD1
+R8
+32
+Z68 !s108 1749381223.327000
+Z69 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/dcpr.vhd|
+Z70 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/dcpr.vhd|
+R12
+R13
+!s100 ;m@f6M=Gf^i_YRGIRS@kc0
+!i10b 1
+Artl
+R3
+R4
+R55
+l17
+L15
+V<VFgX:1^NHcQa;jYJQAgl3
+R8
+32
+R68
+R69
+R70
+R12
+R13
+!s100 lDJE45zgnE6QCR]9:zm6D2
+!i10b 1
+Eeot_register
+R1
+R3
+R4
+R5
+Z71 8D:/FknWork/Critical/RECOP/Datapath Modules/eot.vhd
+Z72 FD:/FknWork/Critical/RECOP/Datapath Modules/eot.vhd
+l0
+L4
+V_>fCGZhUb22Q<Co1_AXYR3
+R8
+32
+Z73 !s108 1749381222.986000
+Z74 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/eot.vhd|
+Z75 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/eot.vhd|
+R12
+R13
+!s100 iQN@1U[?GPAQk;E11[KiR1
+!i10b 1
+Artl
+R3
+R4
+R52
+l16
+L14
+VnAXJlf:8DLIZUzbP;@74=2
+R8
+32
+R73
+R74
+R75
+R12
+R13
+!s100 89l0gk6UeXST5JB:NAH3M3
+!i10b 1
+Eer_register
+R1
+R3
+R4
+R5
+Z76 8D:/FknWork/Critical/RECOP/Datapath Modules/er.vhd
+Z77 FD:/FknWork/Critical/RECOP/Datapath Modules/er.vhd
+l0
+L4
+VJKI0ElcB6ee1ULRfE:Ffl1
+R8
+32
+Z78 !s108 1749381222.268000
+Z79 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/er.vhd|
+Z80 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/er.vhd|
+R12
+R13
+!s100 n:lT8S9TmIa8bAbcan>fM3
+!i10b 1
+Artl
+R3
+R4
+R51
+l17
+L15
+VmiHI[^TEjk^6UPC:Oj?SZ0
+R8
+32
+R78
+R79
+R80
+R12
+R13
+!s100 ]Db2XVBg]IAd=?=MfdnSU0
+!i10b 1
+Einstruction_register
+R1
+R2
+R3
+R4
+R5
+Z81 8D:/FknWork/Critical/RECOP/Datapath Modules/instruction_register.vhd
+Z82 FD:/FknWork/Critical/RECOP/Datapath Modules/instruction_register.vhd
+l0
+L5
+V8N`;M2Ff74LknbYJaWhl;2
+R8
+32
+Z83 !s108 1749381222.013000
+Z84 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/instruction_register.vhd|
+Z85 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/instruction_register.vhd|
+R12
+R13
+!s100 Ua5JReh<Dh39T2dNnlNCA0
+!i10b 1
+Artl
+Z86 DEx4 work 16 register_general 0 22 Mz9O4mC;;SoiR6aPYHAma2
+R2
+R3
+R4
+R61
+l32
+L19
+V4LS2_J?o:VE=niU@l_il33
+R8
+32
+R83
+R84
+R85
+R12
+R13
+!s100 RW]jZJm<HC[P@<NYdGO3b0
+!i10b 1
+Ememory_address_register
+R1
+R3
+R4
+R5
+Z87 8D:/FknWork/Critical/RECOP/Datapath Modules/memory_address_register.vhd
+Z88 FD:/FknWork/Critical/RECOP/Datapath Modules/memory_address_register.vhd
+l0
+L4
+V;EOz;eaU2ADT2Nn3MWI8K0
+R8
+32
+Z89 !s108 1749381221.294000
+Z90 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/memory_address_register.vhd|
+Z91 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/memory_address_register.vhd|
+R12
+R13
+!s100 C`I?dJ3nU^95G:d<6]D0;1
+!i10b 1
+Abeh
+R3
+R4
+R56
+l17
+L15
+VChTK<DO7lJB28>@7<hW`E0
+R8
+32
+R89
+R90
+R91
+R12
+R13
+!s100 dBJ^j9gz;O5F;63:K;S;R3
+!i10b 1
+Emux_2
+R1
+R3
+R4
+R5
+Z92 8D:/FknWork/Critical/RECOP/Datapath Modules/mux_2.vhd
+Z93 FD:/FknWork/Critical/RECOP/Datapath Modules/mux_2.vhd
+l0
+L4
+VIoC2WB>J5oD_5O^akg[AR2
+R8
+32
+Z94 !s108 1749381220.946000
+Z95 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/mux_2.vhd|
+Z96 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/mux_2.vhd|
+R12
+R13
+!s100 QMj]Hzco8Izo=QGzWQRFS0
+!i10b 1
+Artl
+R3
+R4
+R60
+l14
+L13
+VE0WkJ2jZDFfDB8K6_M3fF2
+R8
+32
+R94
+R95
+R96
+R12
+R13
+!s100 <h^C[_5M=Rj[VL2CoDJPT3
+!i10b 1
+Emux_2_4bit
+R1
+R3
+R4
+R5
+Z97 8D:/FknWork/Critical/RECOP/Datapath Modules/mux_2_4bit.vhd
+Z98 FD:/FknWork/Critical/RECOP/Datapath Modules/mux_2_4bit.vhd
+l0
+L4
+VUQHzDfXXizYTJW_k]d2EQ1
+R8
+32
+Z99 !s108 1749381220.242000
+Z100 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/mux_2_4bit.vhd|
+Z101 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/mux_2_4bit.vhd|
+R12
+R13
+!s100 leX^MB@OlloRZd]^73c330
+!i10b 1
+Artl
+R3
+R4
+DEx4 work 10 mux_2_4bit 0 22 UQHzDfXXizYTJW_k]d2EQ1
+l14
+L13
+VN`JKF=c0;^0cz3O1:JHVI0
+R8
+32
+R99
+R100
+R101
+R12
+R13
+!s100 5`4bAg]9lZVnPZi3mCFhU3
+!i10b 1
+Emux_3
+R1
+R3
+R4
+R5
+Z102 8D:/FknWork/Critical/RECOP/Datapath Modules/mux_3.vhd
+Z103 FD:/FknWork/Critical/RECOP/Datapath Modules/mux_3.vhd
+l0
+L4
+VUBnh8EojjP5od9=BWf]DR1
+R8
+32
+Z104 !s108 1749381219.530000
+Z105 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/mux_3.vhd|
+Z106 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/mux_3.vhd|
+R12
+R13
+!s100 VMTk;lN=9d>4;AI2DX0Vi0
+!i10b 1
+Artl
+R3
+R4
+R58
+l15
+L14
+Vn9j@d0S2LX]1l>c4Z`c4j3
+R8
+32
+R104
+R105
+R106
+R12
+R13
+!s100 iDl`KBTg?PHG1;h7Kz8WJ1
+!i10b 1
+Emux_3_4bit
+R1
+R3
+R4
+R5
+Z107 8D:/FknWork/Critical/RECOP/Datapath Modules/mux_3_4bit.vhd
+Z108 FD:/FknWork/Critical/RECOP/Datapath Modules/mux_3_4bit.vhd
+l0
+L4
+VgK?zVFLbbnaM?NjaKKEZG3
+R8
+32
+Z109 !s108 1749381218.810000
+Z110 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/mux_3_4bit.vhd|
+Z111 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/mux_3_4bit.vhd|
+R12
+R13
+!s100 73Ad4EN]VnnaQGTG=5E8?3
+!i10b 1
+Artl
+R3
+R4
+DEx4 work 10 mux_3_4bit 0 22 gK?zVFLbbnaM?NjaKKEZG3
+l15
+L14
+VN]iC5?[LM]Y2AUW1@c[=m1
+R8
+32
+R109
+R110
+R111
+R12
+R13
+!s100 lnl9AnkiRTRX?J3fXJ_282
+!i10b 1
+Emux_4
+R1
+R3
+R4
+R5
+Z112 8D:/FknWork/Critical/RECOP/Datapath Modules/mux_4.vhd
+Z113 FD:/FknWork/Critical/RECOP/Datapath Modules/mux_4.vhd
+l0
+L4
+VAa8Oii9Qe2UDLa;cNkYZi1
+R8
+32
+Z114 !s108 1749381218.095000
+Z115 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/mux_4.vhd|
+Z116 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/mux_4.vhd|
+R12
+R13
+!s100 G[F;ceBeX:>kbI=PC`I;02
+!i10b 1
+Artl
+R3
+R4
+R63
+l16
+L15
+Vg:;FmE3i<L9B>4ndXFeXY0
+R8
+32
+R114
+R115
+R116
+R12
+R13
+!s100 aP=eV9FbV>i`6bd`>5;BN0
+!i10b 1
+Popcodes
+R17
+R3
+R4
+R1
+R5
+8D:/FknWork/Critical/RECOP/Datapath Modules/opcodes.vhd
+FD:/FknWork/Critical/RECOP/Datapath Modules/opcodes.vhd
+l0
+L7
+V2A7laXYE^XCMYo;NiS:D?2
+R8
+32
+R12
+R13
+!s100 @13H`YQMb^noee]JO68O02
+!i10b 1
+!s108 1749381217.383000
+!s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/opcodes.vhd|
+!s107 D:/FknWork/Critical/RECOP/Datapath Modules/opcodes.vhd|
+Eprog_mem
+Z117 w1748988517
+R3
+R4
+R5
+Z118 8D:/FknWork/Critical/RECOP/Datapath Modules/prog_mem.vhd
+Z119 FD:/FknWork/Critical/RECOP/Datapath Modules/prog_mem.vhd
+l0
+L41
+VCSiNe3`la?9ofAj?47IK?0
+R8
+32
+Z120 !s108 1749381216.668000
+Z121 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/prog_mem.vhd|
+Z122 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/prog_mem.vhd|
+R12
+R13
+!s100 Ijz@KQblEg7l]e:WnbQ3k2
+!i10b 1
+Asyn
+R3
+R4
+R62
+l77
+L48
+VcF5C_YcAim;lGjiN5PG7:0
+R8
+32
+R120
+R121
+R122
+R12
+R13
+!s100 N6:2004SBP>1lddMOZ?^k0
+!i10b 1
+Eprogram_counter
+R1
+R3
+R4
+R5
+Z123 8D:/FknWork/Critical/RECOP/Datapath Modules/program_counter.vhd
+Z124 FD:/FknWork/Critical/RECOP/Datapath Modules/program_counter.vhd
+l0
+L4
+V3S187@V;>naOH[DV?;:hd3
+R8
+32
+Z125 !s108 1749381215.962000
+Z126 !s90 -reportprogress|30|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/program_counter.vhd|
+Z127 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/program_counter.vhd|
+R12
+R13
+!s100 `k6QH@UCoZIeVI]o@Y;`92
+!i10b 1
+Abeh
+R3
+R4
+R64
+l15
+L13
+VQlT?emDLfo_D9Jl>nDiC12
+R8
+32
+R125
+R126
+R127
+R12
+R13
+!s100 G0JGSDU>`LcG4_SlBAKV41
+!i10b 1
+Erecop_pll
+R1
+R3
+R4
+R5
+Z128 8D:/FknWork/Critical/RECOP/Datapath Modules/recop_pll.vhd
+Z129 FD:/FknWork/Critical/RECOP/Datapath Modules/recop_pll.vhd
+l0
+L43
+VI^^=LihSklOEZc@z53V:n3
+R8
+32
+Z130 !s108 1749381215.239000
+Z131 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/recop_pll.vhd|
+Z132 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/recop_pll.vhd|
+R12
+R13
+!s100 zY`XWgfj5Qi[ez5`9z3O[3
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 9 recop_pll 0 22 I^^=LihSklOEZc@z53V:n3
+l123
+L52
+V5f@GaSM1gigTDOKbR8ZJM1
+R8
+32
+R130
+R131
+R132
+R12
+R13
+!s100 XH4DNEPjT`eEWU]:fT6af0
+!i10b 1
+Erecop_system
+w1746346927
+R2
+R3
+R4
+R5
+8D:/FknWork/Critical/RECOP/ReCOP_System.vhd
+FD:/FknWork/Critical/RECOP/ReCOP_System.vhd
+l0
+L5
+V@m:fkFj39<QMPXEdN]9c11
+!s100 WRSB6EPda]gkWz?`3bb`71
+R8
+32
+!i10b 1
+!s108 1749381240.242000
+!s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/ReCOP_System.vhd|
+!s107 D:/FknWork/Critical/RECOP/ReCOP_System.vhd|
+R12
+R13
+Precop_types
+R3
+R4
+R1
+R5
+8D:/FknWork/Critical/RECOP/Datapath Modules/recop_types.vhd
+FD:/FknWork/Critical/RECOP/Datapath Modules/recop_types.vhd
+l0
+L5
+VfY1D3lezHL]jNYXHNLTQY1
+R8
+32
+R12
+R13
+!s100 2o[aSILejOTa_Yg=TbPmJ2
+!i10b 1
+!s108 1749381214.525000
+!s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/recop_types.vhd|
+!s107 D:/FknWork/Critical/RECOP/Datapath Modules/recop_types.vhd|
+Eregister_file
+Z133 w1748956883
+R15
+R17
+R2
+R3
+R4
+R5
+Z134 8D:/FknWork/Critical/RECOP/Datapath Modules/register_file.vhd
+Z135 FD:/FknWork/Critical/RECOP/Datapath Modules/register_file.vhd
+l0
+L8
+VF<WWED8eIjS<aVl=;KJKO3
+R8
+32
+Z136 !s108 1749381213.807000
+Z137 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/register_file.vhd|
+Z138 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/register_file.vhd|
+R12
+R13
+!s100 Ie;0QAf@ZC;jXG?1Qic[h1
+!i10b 1
+Artl
+R15
+R17
+R2
+R3
+R4
+R59
+l27
+L24
+VJ@:LI6M@Jg7?`?^T>hm=81
+R8
+32
+R136
+R137
+R138
+R12
+R13
+!s100 ]YOP^WAEPmkeiT26:S8XM0
+!i10b 1
+Eregister_general
+R1
+R3
+R4
+R5
+Z139 8D:/FknWork/Critical/RECOP/Datapath Modules/register_general.vhd
+Z140 FD:/FknWork/Critical/RECOP/Datapath Modules/register_general.vhd
+l0
+L4
+VMz9O4mC;;SoiR6aPYHAma2
+R8
+32
+Z141 !s108 1749381213.086000
+Z142 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/register_general.vhd|
+Z143 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/register_general.vhd|
+R12
+R13
+!s100 LCY:zOX?9`D35d5YDWmLz3
+!i10b 1
+Abeh
+R3
+R4
+R86
+l17
+L15
+ViPHcGkF>f:P]=jQi;?nZN2
+R8
+32
+R141
+R142
+R143
+R12
+R13
+!s100 Am5K`X37bNBj@oTIOef`z1
+!i10b 1
+Esip_register
+R1
+R3
+R4
+R5
+Z144 8D:/FknWork/Critical/RECOP/Datapath Modules/sip_register.vhd
+Z145 FD:/FknWork/Critical/RECOP/Datapath Modules/sip_register.vhd
+l0
+L4
+Vd3[<<BDLLV5nOd;>AfdzN3
+R8
+32
+Z146 !s108 1749381212.361000
+Z147 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/sip_register.vhd|
+Z148 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/sip_register.vhd|
+R12
+R13
+!s100 f4i6Q7l_icEBUl1YF8aI_3
+!i10b 1
+Artl
+R3
+R4
+R54
+l15
+L14
+VmNBFfMNzL>LPBMiU[?[HD0
+R8
+32
+R146
+R147
+R148
+R12
+R13
+!s100 ]g[PDZAdz=19jajSV[]X11
+!i10b 1
+Esop_register
+R1
+R3
+R4
+R5
+Z149 8D:/FknWork/Critical/RECOP/Datapath Modules/sop_register.vhd
+Z150 FD:/FknWork/Critical/RECOP/Datapath Modules/sop_register.vhd
+l0
+L4
+VGX=_mTkc6GPC04KZmHoZA0
+R8
+32
+Z151 !s108 1749381211.646000
+Z152 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/sop_register.vhd|
+Z153 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/sop_register.vhd|
+R12
+R13
+!s100 `QCZ1[eV_LCN4_YQP7J_c3
+!i10b 1
+Artl
+R3
+R4
+R57
+l16
+L14
+Va[e95?9`VIkOW[BAE@2>42
+R8
+32
+R151
+R152
+R153
+R12
+R13
+!s100 4EcWd9lZDbb]cIWOLK3[a0
+!i10b 1
+Estack_pointer
+R1
+R2
+R3
+R4
+R5
+Z154 8D:/FknWork/Critical/RECOP/Datapath Modules/stack_pointer.vhd
+Z155 FD:/FknWork/Critical/RECOP/Datapath Modules/stack_pointer.vhd
+l0
+L5
+VY[8?N36c?2ZP`iPJP^hZn1
+R8
+32
+Z156 !s108 1749381210.934000
+Z157 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/stack_pointer.vhd|
+Z158 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/stack_pointer.vhd|
+R12
+R13
+!s100 oXQ?VQiA00jflf;7gHiI<1
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 13 stack_pointer 0 22 Y[8?N36c?2ZP`iPJP^hZn1
+l16
+L14
+V4WKXkU3XBGGP^R]_W=9NH1
+R8
+32
+R156
+R157
+R158
+R12
+R13
+!s100 Lf@3_<Qb^KN6RIJ<MVlY<3
+!i10b 1
+Esvop_register
+R1
+R3
+R4
+R5
+Z159 8D:/FknWork/Critical/RECOP/Datapath Modules/svop_register.vhd
+Z160 FD:/FknWork/Critical/RECOP/Datapath Modules/svop_register.vhd
+l0
+L4
+V[ZQJeaDjiZKF[dlEeA4aK1
+R8
+32
+Z161 !s108 1749381210.218000
+Z162 !s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/svop_register.vhd|
+Z163 !s107 D:/FknWork/Critical/RECOP/Datapath Modules/svop_register.vhd|
+R12
+R13
+!s100 <EG@8dZ<j@85;@4aeTQOI1
+!i10b 1
+Artl
+R3
+R4
+R53
+l16
+L14
+VJeaOzG4]^;z;LMiN1HQa[0
+R8
+32
+R161
+R162
+R163
+R12
+R13
+!s100 z2lnO`k<8l]RAb?KCJfW60
+!i10b 1
+Pvarious_constants
+R17
+R3
+R4
+R1
+R5
+8D:/FknWork/Critical/RECOP/Datapath Modules/various_constants.vhd
+FD:/FknWork/Critical/RECOP/Datapath Modules/various_constants.vhd
+l0
+L7
+VFaD`j54NjI?N2;ileZ?SG3
+R8
+32
+R12
+R13
+!s100 T7oOcWZSh7]bT6e2ffBmk2
+!i10b 1
+!s108 1749381208.440000
+!s90 -reportprogress|300|-work|work|D:/FknWork/Critical/RECOP/Datapath Modules/various_constants.vhd|
+!s107 D:/FknWork/Critical/RECOP/Datapath Modules/various_constants.vhd|

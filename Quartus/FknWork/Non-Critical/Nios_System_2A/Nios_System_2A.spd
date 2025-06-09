@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/Nios_System_2A_LED_pio.vhd"
+   type="VHDL"
+   library="LED_pio" />
+ <file path="simulation/Nios_System_2A.vhd" type="VHDL" />
+ <topLevel name="Nios_System_2A" />
+ <deviceFamily name="cyclonev" />
+ <modelMap
+   controllerPath="Nios_System_2A.onchip_memory"
+   modelPath="Nios_System_2A.onchip_memory" />
+</simPackage>

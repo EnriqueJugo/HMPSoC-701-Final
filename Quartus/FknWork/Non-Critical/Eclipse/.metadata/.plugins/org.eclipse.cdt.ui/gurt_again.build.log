@@ -1,0 +1,9 @@
+00:16:12 **** Incremental Build of configuration Nios II for project gurt_again ****
+make all 
+Info: Building ../gurt_again_bsp/
+D:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../gurt_again_bsp/
+[BSP build complete]
+[gurt_again build complete]
+
+00:16:12 Build Finished (took 593ms)
+
